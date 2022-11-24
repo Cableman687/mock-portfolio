@@ -37,20 +37,23 @@ h2 {
     text-shadow: 0.1px 0.1px 2px rgb(51, 50, 50);
   }
 
+a {
+    text-decoration: none;
+} 
+
 /* Main Header */
 .main-header {
     display: flex;
-    margin-left: 20px;
-    justify-content: flex-start;
-    
+    padding-left: 10px;
+    justify-content: flex-start;   
     
 }
 
 .main-header h1 {
     color: var(--eggshell);
     text-shadow: 0.1px 0.1px 2px rgb(51, 50, 50);
-
     text-align: center;
+
 }
 
 .main-header .navbar {
@@ -58,21 +61,25 @@ h2 {
     flex-direction: row;
     align-items: center;
     padding-top: 10px;
-    margin-left: 50px;
-    
-    
+    margin-left: 50px;    
 }
 
 .main-header a {
     color: var(--eggshell);
     text-shadow: 0.1px 0.1px 2px rgb(51, 50, 50);
-
     padding-top: 14px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 60px;
     padding-bottom: 10px;
     text-decoration: none;
-    text-align: center;    
+    text-align: center;
+    
+    border-left: solid;
+    border-left-width: 3px;
+    border-left-color: var(--burntorange);
+    
+   
+
    
 }
 
@@ -98,6 +105,8 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
 
+    padding-top: 10px;
+
 }
 
 .intro{
@@ -110,13 +119,15 @@ body {
 
 .intro img {
     flex: 1 0 400px;
-    width: 100%;
-    min-width: 400px;
+    max-width: 40%;
+    
     
 }
 
 .intro p {
-    width: 30%;
+    flex: 1 0 400px;
+    max-width: 40%;
+    
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
@@ -179,9 +190,7 @@ body {
     text-decoration: none;
   }
     
-  a {
-    text-decoration: none;
-  } 
+ 
 
  
 
@@ -317,17 +326,14 @@ body {
     
 }
 
-#contact-header a:hover {
-    text-decoration: underline;
-    
-    
-}
+
 
 
 /* Page Flex behaviours */
 @media screen and (max-width: 900px) {
     main,
     body,
+    .intro,
     .main-header,
     .main-header nav,
     .card,
@@ -349,5 +355,15 @@ body {
     filter: blur(1px);
     border-color: var(--burntorange);
     cursor: pointer;
+}
+
+/* Navbar Links / Contact Links - Reactions */
+
+.main-header a:hover {
+    text-decoration: underline; 
+}
+
+#contact-header a:hover {
+    text-decoration: underline;
 }
 
