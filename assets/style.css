@@ -23,7 +23,7 @@ f0ebd8 */
 }
 
 body{
-    background-image: url(./assets/images/background-image.jpg);
+    background-image: url("/assets/images/background-image.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -224,7 +224,7 @@ body {
 #system-monitor{  
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/images/system-monitor.png);
+    background-image: url("/assets/images/system-monitor.png");
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -247,7 +247,7 @@ body {
     align-items: center;
     text-shadow: 2px 2px 10px black;
 
-    background-image: url(./assets/images/digital-marketing-meeting.jpg);
+    background-image: url("/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ body {
     align-items: center;
     text-shadow: 0px 0px 10px black;
 
-    background-image: url(./assets/images/route-planner.png);
+    background-image: url("/assets/images/route-planner.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,7 +270,7 @@ body {
     text-shadow: 0px 0px 10px black;
     text-decoration: none;
 
-    background-image: url(./assets/images/bowtie-cat.png);
+    background-image: url("/assets/images/bowtie-cat.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
