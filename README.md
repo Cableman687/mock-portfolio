@@ -1,4 +1,4 @@
-# Module-2-Challenge
+# Mock Portfolio
 
 ## Description
 - The motivivation to complete this test my own skills gained in the most recent week of the coding bootcamp, including but not limited to: media query screens, flexboxes, responsive design & pseudo-classes.
